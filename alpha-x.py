@@ -70,7 +70,7 @@ def upgrade():
 	if a=="Y" or a == "y":
 	    #os.system('clear')
 	    os.system("sudo apt autoremove")
-	    os.system("sudo apt upgrade -y")
+	    os.system("sudo apt full-upgrade -y")
 	elif a=="N" or a=="n":
 	    mainmenu()
 	else:
