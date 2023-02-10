@@ -31,15 +31,15 @@ def tools():
 	elif u_inp=="2":
 	    pkgs = input("[+]Enter the Software or Tool Name to Search: ")
 	    A = "sudo apt-cache search " + pkgs
-	    os.system(A)
+	    os.system()
 	elif u_inp=="3":
 	    pkgi = input("[+]Enter the package to Install (ex: vlc) : ")
 	    B = "sudo apt-get install " + pkgi
-	    os.system(B)  
+	    os.system()  
 	elif u_inp=="4":
 	    pkgr = input("[+]Enter the package to Remove (ex: vlc) : ")
 	    C = "sudo apt-get remove " + pkgr
-	    os.system(C)
+	    os.system()
 	elif u_inp=="5":
 	    IP = input("[+]Enter the target IP: ")
 	    M="nmap "+ IP
